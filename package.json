@@ -8,7 +8,7 @@
     "build": "yarn prisma:deploy && next build",
     "db": "docker compose up -d",
     "lint": "next lint",
-    "prisma:dev": "npx prisma migrate dev && prisma generate",
+    "prisma": "npx prisma migrate dev && prisma generate",
     "prisma:deploy": "npx prisma migrate deploy && prisma generate",
     "prettier:check": "prettier . --check",
     "prettier:write": "prettier . --write",
